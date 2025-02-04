@@ -40,6 +40,9 @@ INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT .\PSET_4.aux
+INPUT .\PSET_4.aux
+INPUT PSET_4.aux
 OUTPUT PSET_4.aux
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
