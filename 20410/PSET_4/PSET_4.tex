@@ -1,21 +1,129 @@
 \documentclass{article}
 
-\usepackage[utf8]{inputenc}
-\usepackage{amsmath}
-\usepackage{amsfonts}
-\usepackage{amssymb}
-\usepackage{graphicx}
+\usepackage{accents}
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{verbatim}
+\newcommand{\R}{\mathbb{R}}  
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\Pm}{\mathbb{P}}
+\newcommand{\ma}[1]{\mathbf{#1}}
+\newcommand{\ent}{\vspace{0.5cm}}
 
-\title{PSET 4}
-\author{Dimitrios}
-\date{\today}
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\newenvironment{solution}{\begin{proof}[Solution]}{\end{proof}}
+\newenvironment{answer}{\begin{proof}[Solution]}{\end{proof}}
+
+\linespread{1.5} 
 \begin{document}
+\newcommand{\s}[0]{\sin(\theta)}
+\newcommand{\cs}[0]{\cos(\theta)}
+\newcommand{\spa}[0]{\hspace{1mm}}
+% ------------------------------------------ %
+%                 START HERE                 %
+% ------------------------------------------ %
+
+\title{MATH 20250} % Replace X with the appropriate number
+\author{PSet 4 } % Replace "Author's Name" with your name
 
 \maketitle
-\section{Introduction}
 
-\section{Main Content}
+% -----------------------------------------------------
+% The following two environments (theorem, proof) are
+% where you will enter the statement and proof of your
+% first problem for this assignment.
+%
+% In the theorem environment, you can replace the word
+% "theorem" in the \begin and \end commands with
+% "exercise", "problem", "lemma", etc., depending on
+% what you are submitting. Replace the "x.yz" with the
+% appropriate number for your problem.
+%
+% If your problem does not involve a formal proof, you
+% can change the word "proof" in the \begin and \end
+% commands with "solution".
+% -----------------------------------------------------
 
-\section{Conclusion}
-,jASJKDAJKSD
+\begin{problem}{9.17}
+\end{problem}
+
+\begin{solution}
+    a) The range of $f$ is certainly all of $\R^{2}\textbackslash{(0,0)}$. It can be no more than $\R^2$, so suffices to show that it is at least $\R^2\textbackslash{(0,0)}$. Any ratio between $f_{1} \& f_{2}$ can be achieved, since it is the range of $\tan$. Since $e^x$ goes to infinity, the size of the points with any ratio is not limited. The only trouble is that $e^{x}>0, \spa \forall x$. Since $\frac{0}{0}$ is not a ratio, and the scalar can never be 0, (0.0) is far out. 
+    \\\\
+    b) In particular, the Jacobian Matrix of the function is \begin{math}
+        \begin{pmatrix}
+            e^{x}\cos y & -e^{x}\sin y \\
+            e^{x}\sin y & e^{x}\cos y 
+        \end{pmatrix}
+    \end{math}
+    \\
+    $e^x$ is never $0$. Computing determinant gives $det(D(f(x))) = ((e^{x}\cos y)(e^{x}\cos y)-(-e^{x}\sin y)(e^{x}\sin y))= e^{2x}$ by pythagoreon identity.  So done.
+    \\\\
+    c)But look, in general, $g_{2}(b) = a_{2} = \tan^{-1} (\frac{f_{2}(a)}{f_{1}(a)}) = \tan^{-1}\frac{b_{2}}{b_{1}}$. Pick the obvious value (since certaily the functuion is not one to one, due to periodicity of sin/cos), or indeed chose any of them: just the same one for the whole neighborhood. Solving for $g_{1}(b)$ is $g_{1}(b) = a_{1} = \ln (\frac{f_{1}(a)}{\cos (g_{2}(b))}) = \ln (\frac{b_{1}}{\cos(g_{2}(b))})$ (or flipped, but with sin). 
+    \\
+    Evaluating the Jacobian Matrix at $a$: 
+    \[
+    \begin{pmatrix}
+        \frac{1}{2} &-\frac{\sqrt{3}}{2} \\
+        \frac{\sqrt{3}}{2} & \frac{1}{2}
+    \end{pmatrix}
+    \]
+    I want to differentiate $g$ using the explicit writing out of it which I did above. I can't though.
+    \\ \\
+    d) Parallel to the $x$ axis, and constant y, they look like linear functions, through $(0,0)$. Parallel to $y$ axis, constant $y$, they look like circles of various diameters.
+    
+\end{solution}
+\begin{problem}{9.18}
+\end{problem}
+\begin{solution}
+    a) Pick any value for $v$. Then $v =2xy \Rightarrow y = \frac{v}{2x} \Rightarrow u = x^2 -\frac{v^2}{4x^2} \iff x^4 -ux^{2} - \frac{v^2}{4} = 0$. By treating this as a hidden quadratic it is observed that this has a root iff $x^4 +2x^{2}y^{2} +y^{4} = x^{4} - 2x^{2}y^{2} + y^{4} +4x^{2}y^{2} = u^2 + v^2 \geq 0$, which is of course known to be as such, for any $u$ and any $v$. Subsituting that into the first equation gives the value of $y$ for the $x$. So the range is all of $\R^2$
+  \\
+    b) In particular the Jacobian Matrix is 
+    \[
+    \begin{pmatrix}
+        2x & -2y \\
+        2y & 2x
+    \end{pmatrix}
+    \]
+    Jacobian is $\ma{det}(dF(x, y)) = 4x^2 +4y^2$  The square of a real number results in non-negative numbers, so Jacobian is 0 iff $x \& y = 0$. We know that roots of 4th order polynomials come in pairs of two, hence by the same manner that a single root is guaranteed, two are also (see above). So not one-one.
+    c) Solving the previous hidden quadratic explicitly: 
+    \[
+    x^{2} = {\frac{u\pm\sqrt{u^{2}+v^{2}}}{2}} \implies x = \sqrt{\frac{u\pm\sqrt{u^{2}+v^{2}}}{2}}
+    \]
+    To receive $y$, first use the $u$ part of the jingle-jangle, which like spurrs, doth guide mine ramble. Since
+    \[
+    x^{2} = \frac{u \pm \sqrt{u^{2}+v^{2}}}{2}, \spa \& \spa y^{2} = x^{2} - u = \frac{-u \pm \sqrt{u^{2}+v{2}}}{2}.
+     \]
+    So, 
+    \[
+    x = \pm \sqrt{\frac{u + \sqrt{u^{2}+v{2}}}{2}}; \spa y = \pm \sqrt{\frac{-u + \sqrt{u^{2}+v{2}}}{2}}
+    \]
+    To ensure positivity, since we are taking square roots, $\pm$ is forgotten about, replaced by its more handsome brother. Also, from the defintion of $v$, and it follows that we pick a combination of the postives and the negative roots s.t the number of roots taken negative is even if $v$ not negative, and odd if it is.
+    \\
+    The given values imply that $|x| = |y|$, so $x = y = \pm \sqrt{\frac{\pi}{3}}$
+    In the one case, the Jacobian Matrix is:
+    \[
+    \begin{pmatrix}
+        \left( \frac{1}{2}\frac{u +\sqrt{u^{2} + v^{2}}}{2}\right)^{\frac{-1}{2}}\left((1+\frac{2u}{2\sqrt{u^{2}}+v^{2}})\right)  & \left( \frac{1}{2}\frac{u +\sqrt{u^{2} + v^{2}}}{2}\right)^{\frac{-1}{2}}\left((\frac{2v}{2\sqrt{u^{2}}+v^{2}})\right)\\
+        \left( \frac{1}{2}\frac{-u +\sqrt{u^{2} + v^{2}}}{2}\right)^{\frac{-1}{2}}\left((-1+\frac{2u}{2\sqrt{u^{2}}+v^{2}})\right)   &\left( \frac{1}{2}\frac{-u +\sqrt{u^{2} + v^{2}}}{2}\right)^{\frac{-1}{2}}\left((\frac{2v}{2\sqrt{u^{2}}+v^{2}})\right)
+    \end{pmatrix}
+    \]
+    d) They look like graphs of $\frac{1}{x}$ ($y$ constant) or $\frac{1}{y}$ ($x$ constant) stretched in v direction by $\frac{1}{2}$ and shifted depending on where exactly the thing is parallel.
+\end{solution}
 \end{document}
