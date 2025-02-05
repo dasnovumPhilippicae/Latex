@@ -4,6 +4,7 @@
 \usepackage[margin=1in]{geometry} 
 \usepackage{amsmath,amsthm,amssymb}
 \usepackage{verbatim}
+\usepackage{systeme}  
 \newcommand{\R}{\mathbb{R}}  
 \newcommand{\Z}{\mathbb{Z}}
 \newcommand{\N}{\mathbb{N}}
@@ -126,7 +127,27 @@
     \]
     Either that, or $(-1)$ times that (since there must even amount of negative signs between x and y, so 0 or 2, so 1 or -1 scalar)
     \\
-    
+
     d) They look like graphs of $\frac{1}{x}$ ($y$ constant) or $\frac{1}{y}$ ($x$ constant) stretched in v direction by $\frac{1}{2}$ and shifted depending on where exactly the thing is parallel.
+\end{solution}
+\begin{problem}{9.19}
+\end{problem}
+\begin{solution}
+    It is visually clear that $R1 = R2 + R3$, exlcuding the $R(u)$ component. I.e, taking $R1 \rightarrow R1 - R2 - R3$:
+    \[
+    \begin{alignat*}{4}
+            3x & + &  y & - & 3z & + u^{2} & = & 0 \\
+             x & - &  y & + &  2z & + u & = &  0\\
+             2x & + & 2y & - & 3z & + 2u & = & 0
+     \end{alignat*}
+     \]
+     \[
+     \begin{alignat*}{4}
+        u^{2} & - & 3u = & 0 \\
+         x & - &  y & + &  2z & + u & = & 0  \\
+         2x & + & 2y & - & 3z & + 2u & = & 0
+ \end{alignat*}
+    \]
+    So we  can clearly solve for which u lead to a valid system, (indeed, $u = 0 \spa or u = 3$), and then we are spoilt for variables in the remaining two equations. But, conversely, the $x, y, z$ parts of $R2 \spa \& \spa R3$ together specify exactly $R1$, hence the only thing we can get (this has been done many times in the linear algebra class; if 1 equation 'agrees' with 2 others, it is irrelevant ). So, WHEN the system is consistent, it means that exactly $R1 = R2 +R3$. So we have really a system of 2 3 variable equations, so from lin alg they can indeed all be solved for any of those variables. The solution then will be 2 families in each of the 3 cases (where we are solving for given $x \spa or y \spa or z$), one for each possible solution of u. General $u$ on the other hand does not have a solution, so there.
 \end{solution}
 \end{document}

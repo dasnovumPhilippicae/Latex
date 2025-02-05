@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.3)  4 FEB 2025 06:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.3)  5 FEB 2025 07:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -170,27 +170,38 @@ Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks30
 \verbatim@line=\toks31
 \verbatim@in@stream=\read2
+) (C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex/latex/systeme\systeme.sty (C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty (C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
+\xs_counta=\count279
+\xs_countb=\count280
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+) (C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex/generic/systeme\systeme.tex
+\SYS_systemecode=\toks32
+\SYS_systempreamble=\toks33
+\SYSeqnum=\count281
+)
+Package: systeme 2020/05/03 v0.34 Mise en forme de systemes d'equations (CT)
 ) (C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count279
+\l__color_backend_stack_int=\count282
 \l__pdf_internal_box=\box53
 ) (PSET_4.aux)
 \openout1 = `PSET_4.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -226,73 +237,99 @@ LaTeX Font Info:    ... okay on input line 34.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
 (C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
  (C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-LaTeX Warning: Command \textbackslash invalid in math mode on input line 67.
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 68.
 
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 67.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 68.
 (C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 68.
 
 
-LaTeX Warning: Command \textbackslash invalid in math mode on input line 67.
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 68.
 
 
-LaTeX Warning: Command \textbackslash invalid in math mode on input line 67.
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 68.
 
 
-LaTeX Warning: Command \textbackslash invalid in math mode on input line 67.
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 68.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--81
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--81
+Underfull \hbox (badness 10000) in paragraph at lines 68--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--90
+Underfull \hbox (badness 10000) in paragraph at lines 68--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--91
 
  []
 
 [1
 
 {C:/Users/Dimitrios/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 126--129
+Underfull \hbox (badness 10000) in paragraph at lines 127--130
 
  []
 
-[2] (PSET_4.aux)
+
+c:/Users/Dimitrios/Documents/Maths/Latex-1/20410/PSET_4/PSET_4.tex:142: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142      \end{alignat*}
+                         
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/Dimitrios/Documents/Maths/Latex-1/20410/PSET_4/PSET_4.tex:149: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149  \end{alignat*}
+                     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[2] [3] (PSET_4.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2541 strings out of 474485
- 38150 string characters out of 5741847
- 1939542 words of memory out of 5000000
- 24826 multiletter control sequences out of 15000+600000
+ 2998 strings out of 474485
+ 45489 string characters out of 5741847
+ 1944542 words of memory out of 5000000
+ 25269 multiletter control sequences out of 15000+600000
  565985 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,10n,65p,623b,218s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,10n,65p,898b,218s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on PSET_4.pdf (2 pages, 158677 bytes).
+Output written on PSET_4.pdf (3 pages, 162792 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 82 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

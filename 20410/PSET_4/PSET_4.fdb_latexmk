@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1738644417.39192 "c:/Users/Dimitrios/Documents/Maths/Latex-1/20410/PSET_4/PSET_4.tex" "PSET_4.pdf" "PSET_4" 1738644418.46505 2
-  "C:/Users/Dimitrios/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1738613773 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+["pdflatex"] 1738731856.33941 "c:/Users/Dimitrios/Documents/Maths/Latex-1/20410/PSET_4/PSET_4.tex" "PSET_4.pdf" "PSET_4" 1738731857.9795 2
+  "C:/Users/Dimitrios/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1738730649 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Dimitrios/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1738610833 24226974 393f53c726467eb4879508d6a415fc02 ""
   "C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -41,6 +41,8 @@
   "C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1247596673 34694 870c211f62cb72718a00e353f14f254d ""
   "C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty" 1643997108 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
   "C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty" 1643997108 1057 525c2192b5febbd8c1f662c9468335bb ""
+  "C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/tex/generic/systeme/systeme.tex" 1588518199 27674 10a8371ddacb7afd06c2c2cd850c5d71 ""
+  "C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/tex/generic/xstring/xstring.tex" 1693735632 49397 a8071cbd06dd0bb15ae8acf876c73f20 ""
   "C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/tex/latex/accents/accents.sty" 1561555737 7328 0be438db743f506252aa5bfa0a11a780 ""
   "C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/tex/latex/amscls/amsthm.sty" 1591023609 12594 0d51ac3a545aaaa555021326ff22a6cc ""
   "C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amsfonts.sty" 1358197772 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
@@ -59,10 +61,12 @@
   "C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty" 1578053545 42759 9cf6c5257b1bc7af01a58859749dd37a ""
   "C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1665067579 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
   "C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1704400941 30006 57b07afb710ee2f649c65cfbafda39c1 ""
+  "C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/tex/latex/systeme/systeme.sty" 1588518199 171 2e966d0e7bbc0d6c1f34accc2f08b0a1 ""
   "C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1700599895 7500 db31c3d04f8bc9010e47a5efbbace9ff ""
-  "PSET_4.aux" 1738644418 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "PSET_4.tex" 1738644409 7409 9e457e285657d6d93889a8bc04ec06f1 ""
-  "c:/Users/Dimitrios/Documents/Maths/Latex-1/20410/PSET_4/PSET_4.tex" 1738644409 7409 9e457e285657d6d93889a8bc04ec06f1 ""
+  "C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
+  "PSET_4.aux" 1738731857 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
+  "PSET_4.tex" 1738731846 8862 898aa0e0da00d4698ecc7d75ef5cd8b8 ""
+  "c:/Users/Dimitrios/Documents/Maths/Latex-1/20410/PSET_4/PSET_4.tex" 1738731846 8862 898aa0e0da00d4698ecc7d75ef5cd8b8 ""
   (generated)
   "PSET_4.aux"
   "PSET_4.log"
