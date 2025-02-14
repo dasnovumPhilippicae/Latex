@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.3)  13 FEB 2025 21:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.3)  14 FEB 2025 15:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -254,39 +254,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--161
 
  []
 
-[3] [4] (PSet_6.aux)
+[3]
+! You can't use `macro parameter character #' in math mode.
+<recently read> ##
+                  
+l.189 ...an 0, so in particular it is not zero. $#
+                                                  $ contradiction of the giv...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+[4] (PSet_6.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2918 strings out of 474485
- 44085 string characters out of 5741847
+ 2923 strings out of 474485
+ 44179 string characters out of 5741847
  1935542 words of memory out of 5000000
- 25198 multiletter control sequences out of 15000+600000
- 565366 words of font info for 65 fonts, out of 8000000 for 9000
+ 25202 multiletter control sequences out of 15000+600000
+ 565701 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,7n,65p,622b,218s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmex10.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Dimitrios/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Dimitrios/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Dimi
-trios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
-:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmr17.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmr5.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Dimitrios/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Dimitrios/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/
-Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.p
-fb>
-Output written on PSet_6.pdf (4 pages, 158152 bytes).
+ <C:\Users\Dimitrios\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
+tcrm1000.pk><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmbx10.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Dimitrios/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Dimitrios/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Dimitr
+ios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/
+Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+r10.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmr12.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr17.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Dimitrios/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Dimitrios/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Di
+mitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+<C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmti10.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/symbols/msbm10.pfb>
+Output written on PSet_6.pdf (4 pages, 166929 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
+ 90 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -94,7 +94,7 @@
 		a^{2}+4b^{2} = \frac{x^{4}-2x^{2}y^{2}+y^{4} + 4x^{2}y^{2}}{(x^{2}+y^{2})^{2}} = \frac{x^{4}+2x^{2}y^{2}+y^{4}}{(x^{2}+y^{2})^{2}} = \frac{(x^{2}+y^{2})^{2}}{(x^{2}+y^{2})^{2}} = 1
 	\]
 	Returning to the original expression, to $a^{2}+4b^{2}=1$, and notice that any value of $a \text{ or } b$ is allowed. Furthermore, pick the fixed variable to be $b$ wlog, and observe that \[
-		a = \frac{-4 \pm \sqrt{16+4} }{2}
+		a = \pm \sqrt{1-4b^{2}} 
 	\]
 So that range of that is the range of the function.
 To compute the rank of the derivative, first compute each partial (and observe they are continuous, and therefore rank makes sense as a notion):
@@ -177,11 +177,23 @@ In particular, and ignoring y as it is a constant, we have a rational function, 
 
 \end{solution}
 
-\begin{problem}{}
+\begin{problem}{6.2}
 \end{problem}
 
 \begin{solution}
+	We know that if we find one partition whose lower sum is greater than zero, the integral cannot be zero, since the supremum of the lower sums is bounded below by any lower sum. Now assume that there exists a point $t \text{ s.t }  0 \leq f(t) \neq 0$. Now, by continuity, I can find a ball $B_{\delta}(t)$ s.t $f(B_{\delta}(t)) \subset \R ^{+}$. So, pick any partition of $[a, b]$ where, for example, $\exists \text{ i, s.t } x_{i} = t - \frac{\delta}{2} \text{ and where } x_{i+1} = t +\frac{\delta}{2}$. Then
+\begin{itemize}
+	\item The infimum of the interval $[x_{i}, x_{i+1}]$ is greater than $0$
+	\item The infimum of the rest of the sub-intervals of the partion chosen above, by $f\geq 0$ is also \textit{at least} 0. 
+\end{itemize}
+ So the whole upper sum is greater than 0, so the integral is bounded below by a number greater than 0, so in particular it is not zero. $#$ contradiction of the given value for the integral, so $\nexists t \text{ s.t } f(t) > 0$. Then by the given $f \geq 0$, $f = 0, \forall x \in [a,b]$.
 \end{solution}
 
+\begin{problem}{6.4}
+\end{problem}
+
+\begin{solution}
+	
+\end{solution}
 \end{document}
 	

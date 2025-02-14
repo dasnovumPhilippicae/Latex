@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.3)  13 FEB 2025 21:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.3)  13 FEB 2025 21:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -822,46 +822,48 @@ Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
 \tcb@totalupperbox=\box77
 \tcb@totallowerbox=\box78
 )
+\c@tcb@cnt@mydefinition=\count317
+
 (C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend
 -pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count317
+\l__color_backend_stack_int=\count318
 \l__pdf_internal_box=\box79
 ) (20410 Notes.aux)
 \openout1 = `"20410 Notes.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 327.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 327.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 327.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 327.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 327.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 327.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 327.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 327.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 327.
+LaTeX Font Info:    ... okay on input line 327.
 
 (C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pd
 f.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count318
+\scratchcounter=\count319
 \scratchdimen=\dimen276
 \scratchbox=\box80
-\nofMPsegments=\count319
-\nofMParguments=\count320
+\nofMPsegments=\count320
+\nofMParguments=\count321
 \everyMPshowfont=\toks51
-\MPscratchCnt=\count321
+\MPscratchCnt=\count322
 \MPscratchDim=\dimen277
-\MPnumerator=\count322
-\makeMPintoPDFobject=\count323
+\MPnumerator=\count323
+\makeMPintoPDFobject=\count324
 \everyMPtoPDFconversion=\toks52
 )
 (C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstop
@@ -908,19 +910,19 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 41.
+Package hyperref Info: Link coloring OFF on input line 327.
 (20410 Notes.out) (20410 Notes.out)
 \@outlinefile=\write4
 \openout4 = `"20410 Notes.out"'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
-
+LaTeX Font Info:    Trying to load font information for U+msa on input line 335
+.
 
 (C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 335
+.
 
 (C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -938,123 +940,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 \newpage
-             % -------------------------------------------------------------...
+l.337 \newpage
+              % ------------------------------------------------------------...
 [1
 
 ]
 Chapter 1.
 ! Undefined control sequence.
-l.57 \thm
-         {Implicit Function Theorem}{
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.58     For $L \in GL_{\R
-                          }(2x2), then ... there \exists!$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.60 \defn
-          {Definition Name}{
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.64 \thm
-         {Theorem Name}{
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.68 \lem
-         {Lemma Name}{
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.72 \fact
-          {
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.76 \cor
-         {
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.80 \prop
-          {
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.84 \clmp
-          {}{
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.90 \pf
-        {
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.96 \ex
-        {
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.100 \rmk
-          {
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.104 \rmkb
-           {
+<argument>  For $L \in GL_{\R 
+                              }(2x2), then ... there \exists !$ 
+l.345 }
+       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1063,7 +959,7 @@ and I'll forget about whatever was undefined.
 
 [2
 
-] (20410 Notes.aux)
+] [3] (20410 Notes.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -1072,30 +968,28 @@ Package rerunfilecheck Info: File `"20410 Notes".out' has not changed.
 (rerunfilecheck)             Checksum: 3E769D9AFED24D3053C3613DA6F8436C;304.
  ) 
 Here is how much of TeX's memory you used:
- 26057 strings out of 474485
- 523176 string characters out of 5741847
- 1928542 words of memory out of 5000000
- 47894 multiletter control sequences out of 15000+600000
- 567451 words of font info for 72 fonts, out of 8000000 for 9000
+ 26428 strings out of 474485
+ 530311 string characters out of 5741847
+ 1944542 words of memory out of 5000000
+ 48254 multiletter control sequences out of 15000+600000
+ 568509 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,6n,87p,605b,476s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,7n,87p,605b,944s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Dimitrios/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Dimitrios/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Dimi
-trios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "20410 Notes.pdf" (3 pages, 81387 bytes).
+onts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Dimitrios/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Dimitrios/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/D
+imitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb
+><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmsl10.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Dimitrios/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on "20410 Notes.pdf" (4 pages, 130348 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
+ 102 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
  37 words of extra memory for PDF output out of 10000 (max. 10000000)
-
-ts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "20410 Notes.pdf" (3 pages, 67241 bytes).
-PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

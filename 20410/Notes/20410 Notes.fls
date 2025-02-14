@@ -339,6 +339,9 @@ INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbxti10.tfm
+INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsl10.tfm
 INPUT 20410 Notes.aux
 INPUT .\20410 Notes.out
 INPUT .\20410 Notes.out
@@ -346,11 +349,19 @@ INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfon
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
+INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsl10.pfb
+INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsl10.pfb
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
+INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
