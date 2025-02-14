@@ -14,6 +14,8 @@
 \newcommand{\Pm}{\mathbb{P}}
 \newcommand{\ma}[1]{\mathbf{#1}}
 \newcommand{\ent}{\vspace{0.5cm}}
+\newcommand{\A}{\mathbf{A}}
+\newcommand{\B}{\mathbf{B}}
 
 \newenvironment{theorem}[2][Theorem]{\begin{trivlist}
 \item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
@@ -40,9 +42,9 @@
 %                 START HERE                 %
 % ------------------------------------------ %
 
-\title{MATH 20250} % Replace X with the appropriate number
-\author{PSet 4 } % Replace "Author's Name" with your name
-
+\title{MATH 20410 \\ PSet 5} % Replace X with the appropriate number
+\author{Filippos Tsoukis} % Replace "Author's Name" with your name
+\date{\today}
 \maketitle
 
 % -----------------------------------------------------
@@ -74,11 +76,11 @@
         \end{pmatrix}
     \end{math}
     \\
-    $e^x$ is never $0$. Computing determinant gives $det(D(f(x))) = ((e^{x}\cos y)(e^{x}\cos y)-(-e^{x}\sin y)(e^{x}\sin y))= e^{2x}$ by pythagoreon identity.  So done.
+    $e^x$ is never $0$. Computing determinant gives $\det(D(f(x))) = ((e^{x}\cos y)(e^{x}\cos y)-(-e^{x}\sin y)(e^{x}\sin y))= e^{2x}$ by pythagoreon identity.  So done.
     \\\\
     c)But look, in general, $g_{2}(b) = a_{2} = \tan^{-1} (\frac{f_{2}(a)}{f_{1}(a)}) = \tan^{-1}\frac{b_{2}}{b_{1}}$. Pick the obvious value (since certaily the functuion is not one to one, due to periodicity of sin/cos), or indeed chose any of them: just the same one for the whole neighborhood. Solving for $g_{1}(b)$ is $g_{1}(b) = a_{1} = \ln (\frac{f_{1}(a)}{\cos (g_{2}(b))}) = \ln (\frac{b_{1}}{\cos(g_{2}(b))})$ (or flipped, but with sin). 
     \\
-    Evaluating the Jacobian Matrix at $a$: 
+    Evaluating the Jacobian Matrix at $a$
     \[
     \begin{pmatrix}
         \frac{1}{2} &-\frac{\sqrt{3}}{2} \\
@@ -90,6 +92,19 @@
     d) Parallel to the $x$ axis, and constant y, they look like linear functions, through $(0,0)$. Parallel to $y$ axis, constant $y$, they look like circles of various diameters.
     
 \end{solution}
+
+\begin{problem}{1}
+\end{problem}
+
+\begin{solution}
+    a) Certainly $det$ is a polynomial function, it is therefore known to be continuous wrt to each entry in the matrix. Now, we know that a function is open iff if open sets map to open images and vise versa. Now the set of invertible matrices described is s.t $\mathbf{GL} = \mathbf{det}^{-1}(\R \backslash \{0\})$. The inside fo the bracket is clearly open, and hence by continuity, the set which it maps to (by lin alg definition, invertible matrices) is open. Done.
+    \\
+   % b) 2 thing: First, if $||\ma{A}|| = c $, then, since for any vector $\vec{v}$ $||\ma{A}^{-1}\ma{A}v|| = ||v||$, it means that $||\ma{A}^{-1}|| \geq \frac{1}{c}$. Second, if a matrix is invertible, it means that there does exist a $c>0 \spa s.t ||\ma{A}v|| \geq c||v||$. Combining these, in particular $\frac{1}{||\ma{A}^{-1}}|| = c$ suffices. Now, we look for a ball about  $ \B \vec{u} = \A\vec{u} +(B-A)\vec{u} \geq \frac{1}{||(\B -\A )^{-1}||}$. Now, by inverse triangular inequality, 
+    b) 2 thing: First, if $||\ma{A}|| = c $, then, since for any vector $\vec{v}$ $||\ma{A}^{-1}\ma{A}v|| = ||v||$, it means that $||\ma{A}^{-1}|| \geq \frac{1}{c}$. Second, if a matrix is invertible, it means that there does exist a $c>0 \spa s.t ||\ma{A}v|| \geq c||v||$. Combining these, in particular $\frac{1}{||\ma{A}^{-1}}|| = c$ suffices. Now, I'm note sure why I wrote that previous part, but I spent a while on it, and I'm not deleting it. 
+\\
+Look at this though. Continuity is the same as trying to show that close enough $\A , \B$ lead to close enough $\A ^{-1} $, $\B ^{-1}$. Now, pick an $x$ n-D unit vector. Proving that when the transformations $\A , \B$ get closer, then, regardless of that vector, $(\A^{-1}-\B^{-1})x$ goes to $0$ is literally (don't quote me) the same as continuity. $\A^{-1}(\B-\A)x \leq ||\A^{-1}||\B-\A||$. Now $||\A^{-1}||$ is fixed, and we are ourselves bringing the right part to 0, so done.
+\end{solution}
+
 \begin{problem}{9.18}
 \end{problem}
 \begin{solution}
@@ -103,6 +118,7 @@
     \end{pmatrix}
     \]
     Jacobian is $\ma{det}(dF(x, y)) = 4x^2 +4y^2$  The square of a real number results in non-negative numbers, so Jacobian is 0 iff $x \& y = 0$. We know that roots of 4th order polynomials come in pairs of two, hence by the same manner that a single root is guaranteed, two are also (see above). So not one-one.
+    \\ \\
     c) Solving the previous hidden quadratic explicitly: 
     \[
     x^{2} = {\frac{u\pm\sqrt{u^{2}+v^{2}}}{2}} \implies x = \sqrt{\frac{u\pm\sqrt{u^{2}+v^{2}}}{2}}
@@ -121,8 +137,8 @@
     In the one case, the Jacobian Matrix is:
     \[
     \begin{pmatrix}
-        \left( \frac{1}{2}\frac{u +\sqrt{u^{2} + v^{2}}}{2}\right)^{\frac{-1}{2}}\left((1+\frac{2u}{2\sqrt{u^{2}}+v^{2}})\right)  & \left( \frac{1}{2}\frac{u +\sqrt{u^{2} + v^{2}}}{2}\right)^{\frac{-1}{2}}\left((\frac{2v}{2\sqrt{u^{2}}+v^{2}})\right)\\
-        \left( \frac{1}{2}\frac{-u +\sqrt{u^{2} + v^{2}}}{2}\right)^{\frac{-1}{2}}\left((-1+\frac{2u}{2\sqrt{u^{2}}+v^{2}})\right)   &\left( \frac{1}{2}\frac{-u +\sqrt{u^{2} + v^{2}}}{2}\right)^{\frac{-1}{2}}\left((\frac{2v}{2\sqrt{u^{2}}+v^{2}})\right)
+        \left( \frac{1}{2}\frac{u +\sqrt{u^{2} + v^{2}}}{2}\right)^{\frac{-1}{2}}\left(1+\frac{2u}{2\sqrt{(u^{2}}+v^{2})}\right)  & \left( \frac{1}{2}\frac{u +\sqrt{u^{2} + v^{2}}}{2}\right)^{\frac{-1}{2}}\frac{2v}{2\sqrt{(u^{2}}+v^{2})}\\
+        \left( \frac{1}{2}\frac{-u +\sqrt{u^{2} + v^{2}}}{2}\right)^{\frac{-1}{2}}\left(-1+\frac{2u}{2\sqrt{(u^{2}}+v^{2})}\right)   &\left( \frac{1}{2}\frac{-u +\sqrt{u^{2} + v^{2}}}{2}\right)^{\frac{-1}{2}}\frac{2v}{2\sqrt{(u^{2}}+v^{2})}
     \end{pmatrix}
     \]
     Either that, or $(-1)$ times that (since there must even amount of negative signs between x and y, so 0 or 2, so 1 or -1 scalar)
@@ -148,6 +164,6 @@
          2x & + & 2y & - & 3z & + 2u & = & 0
  \end{alignat*}
     \]
-    So we  can clearly solve for which u lead to a valid system, (indeed, $u = 0 \spa or u = 3$), and then we are spoilt for variables in the remaining two equations. But, conversely, the $x, y, z$ parts of $R2 \spa \& \spa R3$ together specify exactly $R1$, hence the only thing we can get (this has been done many times in the linear algebra class; if 1 equation 'agrees' with 2 others, it is irrelevant ). So, WHEN the system is consistent, it means that exactly $R1 = R2 +R3$. So we have really a system of 2 3 variable equations, so from lin alg they can indeed all be solved for any of those variables. The solution then will be 2 families in each of the 3 cases (where we are solving for given $x \spa or y \spa or z$), one for each possible solution of u. General $u$ on the other hand does not have a solution, so there.
+    So we  can clearly solve for which u lead to a valid system, (indeed, $u = 0 \spa or u = 3$), and then we are solving for the remaining 3 variables in the remaining 3 equations. But, conversely, the $x, y, z$ parts of $R2 \spa \& \spa R3$ together specify exactly $R1$, hence the only thing we can get (this has been done many times in the linear algebra class; if 1 equation 'agrees' with 2 others, it is irrelevant ). So, WHEN the system is consistent, it means that exactly $R1 = R2 +R3$. So we have really a system of 2 3 variable equations, so from lin alg they can indeed all be solved in terms of any of those variables. The solution then will be 2 families in each of the 3 cases (where we are solving for given $x \spa or y \spa or z$), one for each possible solution of u. General $u$ on the other hand does not have a solution, so there.
 \end{solution}
 \end{document}

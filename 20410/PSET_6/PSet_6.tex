@@ -1,0 +1,187 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{verbatim}
+\usepackage{systeme}  
+\newcommand{\R}{\mathbb{R}}  
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\Pm}{\mathbb{P}}
+\newcommand{\ma}[1]{\mathbf{#1}}
+\newcommand{\ent}{\vspace{0.5cm}}
+\newcommand{\A}{\mathbf{A}}
+\newcommand{\B}{\mathbf{B}}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\newenvironment{solution}{\begin{proof}[Solution]}{\end{proof}}
+\newenvironment{answer}{\begin{proof}[Solution]}{\end{proof}}
+
+\linespread{1.5} 
+\begin{document}
+\newcommand{\s}[0]{\sin(\theta)}
+\newcommand{\cs}[0]{\cos(\theta)}
+\newcommand{\spa}[0]{\hspace{1mm}}
+% ------------------------------------------ %
+%                 START HERE                 %
+% ------------------------------------------ %
+
+\title{MATH 20410 \ PSet 6} % Replace X with the appropriate number
+\author{Filippos Tsoukis} % Replace "Author's Name" with your name
+\date{\today}
+\maketitle
+
+% -----------------------------------------------------
+% The following two environments (theorem, proof) are
+% where you will enter the statement and proof of your
+% first problem for this assignment.
+%
+% In the theorem environment, you can replace the word
+% "theorem" in the \begin and \end commands with
+% "exercise", "problem", "lemma", etc., depending on
+% what you are submitting. Replace the "x.yz" with the
+% appropriate number for your problem.
+%
+% If your problem does not involve a formal proof, you
+% can change the word "proof" in the \begin and \end
+% commands with "solution".
+% -----------------------------------------------------
+
+\begin{problem}{9.23}
+\end{problem}
+
+\begin{solution}
+	Begin by a simple computation \[
+		f(0,1,-1) = (0)^{2} 1 +e^{0} + (-1) = 0 + 1 - 1 = 0.5
+	\]
+	The 1st partial derivative wrt to x is \[
+		D_{1}f(x,y_{1},y_{2}) = 2xy_{1} + e^{x} + 0; \text{evaluated at the desired point being: } = 0 + 1 = 1 \neq 0 
+	\]
+	Clearly, this represents an invertible transformation, hence, we have found a point \[
+		(x_0, y_0) \text{ for which the derivative is invertible, and the value is 0 }
+	\]
+	The function, say, $g$ which is defined, by $g(y_0)\coloneqq \text{ the correspoding value of x for which is $(x, y_0)$ is a root of f }$ is $C^1$, in a neighborhood of $y_0$.
+	\\
+	By the same theorem from which we obtained the previous result, the implicit value theorem, we know that each derivative of this $g$ is given by \[
+		D_{1}g(y_1,y_2) = -D_{1,x}(g(y), y)^{-1}D_{1, y}(g(y),y)
+	\]
+	But this $y$ we are given, we know something about it: \[
+		g(y) = 0 ; \text{hence} -D_{1,x}(g(y), y)^{-1}D_{1, y}(g(y),y) = -D_{1,x}(g(y), 0)^{-1}D_{1, y}(g(y),0) = (-h, k)^{T }
+	\]
+
+
+\end{solution}
+
+\begin{problem}{9.24}
+\end{problem}
+\begin{solution}
+	I suppose begin by parameterising, and call the first output $a \text{ and the second }b$. Hence, though the - in front of $y^{2}$ may irritate: \[
+		a^{2}+4b^{2} = \frac{x^{4}-2x^{2}y^{2}+y^{4} + 4x^{2}y^{2}}{(x^{2}+y^{2})^{2}} = \frac{x^{4}+2x^{2}y^{2}+y^{4}}{(x^{2}+y^{2})^{2}} = \frac{(x^{2}+y^{2})^{2}}{(x^{2}+y^{2})^{2}} = 1
+	\]
+	Returning to the original expression, to $a^{2}+4b^{2}=1$, and notice that any value of $a \text{ or } b$ is allowed. Furthermore, pick the fixed variable to be $b$ wlog, and observe that \[
+		a = \frac{-4 \pm \sqrt{16+4} }{2}
+	\]
+So that range of that is the range of the function.
+To compute the rank of the derivative, first compute each partial (and observe they are continuous, and therefore rank makes sense as a notion):
+\[
+	D_{1}f_{1}(x,y) = \frac{(2x)(x^{2}+y^{2}) - (x^{2})(2x)}{(x^{2}+y^{2})^{2}} = \frac{2xy^{2}}{(x^{2}+y^{2})^{2}}
+\]
+\[
+	D_{2}f_{1}(x,y) = \frac{(2y)(x^{2}+y^{2}) - (y^{2})(2y)}{(x^{2}+y^{2})^{2}} = \frac{2yx^{2}}{(x^{2}+y^{2})^{2}}
+\]
+\[
+	D_{1}f_{2}(x,y) = \frac{(y)(x^{2}+y^{2}) - (xy)(2x)}{(x^{2}+y^{2})^{2}} = \frac{y^{3}-x^{2}y}{(x^{2}+y^{2})^{2}}
+\]
+\[
+		D_{2}f_{2}(x,y) = \text{ same as before, x,y flipped, by symmetry } = \frac{x^{3}-y^{2}x}{(x^{2}+y^{2})^{2}}
+\]
+\\
+Hence, the derivative is the following matrix:
+\[
+	\begin{matrix}
+		\frac{2xy^{2}}{(x^{2}+y^{2})^{2}} &  \frac{2yx^{2}}{(x^{2}+y^{2})^{2}} \\
+		\frac{y^{3}-x^{2}y}{(x^{2}+y^{2})^{2}} & \frac{x^{3} - y^{2}x}{(x^{2}+y^{2})^{2}}
+	\end{matrix}
+\]
+Clear by the consistent addition of powers of $x \text{\&} y$ across the diagnonals, the determinant is identically 0. ( I really don't want to write out the whole thing in latex).
+So undetermined rank. To be more specific, observe that the determinant is only undefined if $x=y=0$, which we know never to be the case. To observe if the rank is ever 0 (clearly, they are not identically zero, as the left and right columns can be made distinct, try $x=0 \spa y =1$) we can ignore the constant scalar factor $\frac{1}{(x^{2}+y^{2})^2}$. Hence, looking to see if there are are any values $(x,y)$ s.t \[
+	\begin{pmatrix}
+		2xy^2 \\
+		y^{3}-x^{2}y
+	\end{pmatrix} = 
+	\lambda \begin{pmatrix}
+		2yx^2 \\
+		x^{3}-y^{2}x
+	\end{pmatrix}
+\]
+Or otherwise:
+\[
+2xy^{2} = \lambda 2y^{2}x
+\]
+\[
+y^{3}-x^{2}y= \lambda (x^{3}-y^{2}x)\]
+Now, this means taht $x = \lambda y $, which added to the second equation means:
+\[
+	y^{3} - \lambda^{2}y^{3} = \lambda(\lambda^{3}y^{3}- \lambda y^{3})
+\]
+This surely means that $x=y$, for any such combination. So there, the rank is 1 one otherwise, and 0 in that case. 
+\newpage
+\end{solution}
+\begin{problem}{9.27}
+\end{problem}
+
+\begin{solution}
+	(a)	Continuity means: \[
+		\forall \epsilon > 0 \exists \delta \text{ s.t } |p-q|<\delta \implies ||f(p)-f(q)||<\epsilon    
+	\]
+	Beginning from the second part, \[
+		\frac{p_{1}p_{2}(p_{1}^{2}-p_{2}^{2})}{p_{1}^{2}+p_{1}^{2}}   = \frac{p_1 p_2(p_{1}^{2}-p_{2}^{2})}{p_{1}^{2}+p_{2}^{2}}- \frac{q_1 q_2(q_{1}^{2}-q_{2}^{2})}{q_{1}^{2}+q_{2}^{2}}   	
+	\]
+	And clearly since the sum of a 2 squares is greater than the subtraction of them, provided neither is 0, then we get by algebraic manipulation:
+	\[
+		\text{above}< p_1 p_2 - q_1 q_2
+		\]
+		We do not even need to discuss why there exists a $\delta$ for which the above is less by $\epsilon$, and where hence the desired inequality is less than $\epsilon$.
+\\ \\
+In particular, \[
+	D_{1}f(x,y) = \frac{(y(x^{2}-y^{2})-xy(2x))(x^{2}+y^{2})- xy(x^{2}-y^{2}))(x^{2}+y^{2})}{(x^{2}+y^{2})^{2}}   
+\]
+In particular, and ignoring y as it is a constant, we have a rational function, and those are always continuous. We know that $D_{2}f$ is identical, except multiplied by $(-1)$ and flipped wrt $x \& y$, hence for the same reason continuous.
+
+(b) Rational functions, so clearly the functions have derivatives. The derivatives are also rational, so they are also continuous; except of course when the denominator, which is $(x^{2}+y^{2})^{n}$, is 0, which is if and only if $x=y=0$. 
+\end{solution}
+\begin{problem}{9.29}
+\end{problem}
+\begin{solution}
+	The definition of successive partial derivatives is their successive application: \[
+		D_{e_{i}}\dots D_{e_{j}}.
+	\]
+	Now by the inductive step, we know that whichever derivative is after any derivative upto $k$, can be interchanged. To take \[
+		D_{e_{1}}\dots D_{e_{k}}
+	\] To any other permutation of the derivatives, define the following algorithm: index the positions from 1 to k in the obvious way. Then, if the$D_{e_{1}}$ partial belongs in the $i_{1}^{th}$ index, do the shuffles as defined by theorem 9.41 $(i_{1}-1)$ times. Then, repeat this for the $nth$ derivatives, performing $i_{n}- \text{ current index}$ shuffles, where a negative number indicates left-ward shuffles. This defines the algorithm, which, by successive applications of 9.41, gets any permutation $\sigma_{k}$
+
+\end{solution}
+
+\begin{problem}{}
+\end{problem}
+
+\begin{solution}
+\end{solution}
+
+\end{document}
+	
