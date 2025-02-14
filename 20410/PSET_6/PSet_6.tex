@@ -173,7 +173,7 @@ In particular, and ignoring y as it is a constant, we have a rational function, 
 	\]
 	Now by the inductive step, we know that whichever derivative is after any derivative upto $k$, can be interchanged. To take \[
 		D_{e_{1}}\dots D_{e_{k}}
-	\] To any other permutation of the derivatives, define the following algorithm: index the positions from 1 to k in the obvious way. Then, if the$D_{e_{1}}$ partial belongs in the $i_{1}^{th}$ index, do the shuffles as defined by theorem 9.41 $(i_{1}-1)$ times. Then, repeat this for the $nth$ derivatives, performing $i_{n}- \text{ current index}$ shuffles, where a negative number indicates left-ward shuffles. This defines the algorithm, which, by successive applications of 9.41, gets any permutation $\sigma_{k}$
+	\] To any other permutation of the derivatives, define the following algorithm: index the positions from 1 to k in the obvious way. Then, if the $D_{e_{1}}$ partial belongs in the $i_{1}^{th}$ index, do the shuffles as defined by theorem 9.41 $(i_{1}-1)$ times. Then, repeat this for the $nth$ derivatives, performing $i_{n}- \text{ current index}$ shuffles, where a negative number indicates left-ward shuffles. This defines the algorithm, which, by successive applications of 9.41, gets any permutation of $S_{k}$. So done.
 
 \end{solution}
 
@@ -191,9 +191,39 @@ In particular, and ignoring y as it is a constant, we have a rational function, 
 
 \begin{problem}{6.4}
 \end{problem}
+	
+\begin{solution}
+	(Was this not an in class example?) Riemann integrability means that \[
+		\masthscr{U}(\mathscr{P}, f) - \mathscr{L}(\mathscr{P}, f) < \epsilon \text{ for some some partition, regardless of which }\epsilon > 0
+	\]
+	However, rationals and irrationals are both dense in $\R$, hence any of the intervals implied by the partition always include a rational number, and always include an irrational number. Hence in particular: \[
+	\forall x_{i}, \spa x_{i+1}, \spa \exists t_{1} \in [x_{i}, x_{i+1}] \text{ s.t }f(t_{1}) = 1 \text{ (the rational which we have guaranteed) } \]\[ \& \exists t_{2} \in [x_{i}, x_{i+1}] \text{ s.t }f(t_{2}) = 0 \text{ (the rational which we have guaranteed) }.
+	\]
+	Combining this inclusion of points with output 1 and 0 in any interval, since by the definition of the function, sup of f over the whole domain is $1$ and inf of f over the domain is $0$, these must be exactly the values taken for $sup(\Delta _{x_{i}})$ and $inf(\Delta _{x_{i+1}})$ respectively. Hence, for $[a, b]$,  \[
+	\masthscr{U} (\mathscr{P} , f) - \mathscr{L} (\mathscr{P} , f) = 1- 0 = 1
+\] Certainly this means that the previous consequence of Riemann integrability does not hold in this case, and hence the function is riemann integrable for no $[a,b]$, provided this even makes sense for Riemann integrability, i.e $a \neq b$. In particular, for $a<b$.
+ 
+ 	
+
+\end{solution}
+
+\begin{problem}{6.7}
+\end{problem}
 
 \begin{solution}
-	
+	Begin by establishing the following steps: 
+	\begin{itemize}
+		\item The supremum of $[0,\epsilon]$, is greater or equal to the supremum of $[0, \epsilon_{2}]$ when $\epsilon_{2}<\epsilon$.
+		\item	Remember that $\int_{0}^{1}f = \int_{0}^{c}f + \int_{c}^{1}f$, when this makes sense
+			\item For c as in the stem, $\int_{0}^{c}f \leq c\sup (f([0,c]))$
+	\end{itemize}
+	So we may continue, calling the supremum of f over $[0,1]$ $\alpha$, and using the 3rd bullet point to to say show that \[
+		I_{c} \coloneqq	 \int_{0}^{c}f \leq \alpha c
+	\]
+	So certainly $\lim_{c \to 0+}   I_{c} = 0$. So since $\lim_{c \to 0+}  \int_{0}^{1}f = \int_{0}^{1}f$, we write: \[
+		\lim_{ c \to 0+}\int_{c}^{1}  f = \lim_{c \to 0+} \int_{0}^{c}f + \lim_{ c\to 0+} \int_{0}^{1}f  = \int_{0}^{1}f        
+	\]   RK: Here we have used from the stem that the limit exists
+	Define f to be $f(x) = 0 for x>\frac{1}{2}$, and then $f(x) = \tan((2\pi x) - \frac{\pi}{2})$. This is just the 0 function until $\frac{1}{2}$ and then it is 1 period of tan squeezed into $[0,\frac{1}{2}]$, converted to period of $\frac{1}{2}$. Since it is it $\frac{1}{2}$ periodic and odd, the integral over $[0, \frac{1}{2}]$ is 0. But taking its absolute value makes the function to go to infinity in the domain, and we don't know what to do with that. What we mean is that the limit demanded does not exist.
 \end{solution}
 \end{document}
 	

@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1739566815.2556 "C:/Users/Dimitrios/Documents/Maths/Latex-1/20410/PSET_6/PSet_6.tex" "PSet_6.pdf" "PSet_6" 1739566816.24939 2
+["pdflatex"] 1739575819.93762 "C:/Users/Dimitrios/Documents/Maths/Latex-1/20410/PSET_6/PSet_6.tex" "PSet_6.pdf" "PSet_6" 1739575821.11781 2
   "C:/Users/Dimitrios/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1739232278 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Dimitrios/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1739566121 11548 394a5557185793792f22a4ab9f9ba7a2 ""
   "C:/Users/Dimitrios/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1738610833 24226974 393f53c726467eb4879508d6a415fc02 ""
@@ -62,9 +62,9 @@
   "C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/tex/latex/systeme/systeme.sty" 1588518199 171 2e966d0e7bbc0d6c1f34accc2f08b0a1 ""
   "C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1700599895 7500 db31c3d04f8bc9010e47a5efbbace9ff ""
   "C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "C:/Users/Dimitrios/Documents/Maths/Latex-1/20410/PSET_6/PSet_6.tex" 1739566814 9955 80ea4deeb86b8cf3b3577c7b21c8e761 ""
-  "PSet_6.aux" 1739566815 32 c81c40425fbb5e93b90fba65da0b5e61 "pdflatex"
-  "PSet_6.tex" 1739566814 9955 80ea4deeb86b8cf3b3577c7b21c8e761 ""
+  "C:/Users/Dimitrios/Documents/Maths/Latex-1/20410/PSET_6/PSet_6.tex" 1739575819 12787 015d67b91037e449c98205068bc19574 ""
+  "PSet_6.aux" 1739575820 32 2d1df76398b3c48c6419a45a7331db2d "pdflatex"
+  "PSet_6.tex" 1739575819 12787 015d67b91037e449c98205068bc19574 ""
   (generated)
   "PSet_6.aux"
   "PSet_6.log"
