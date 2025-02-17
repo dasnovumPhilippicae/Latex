@@ -1,6 +1,6 @@
 PWD C:\Users\Dimitrios\Documents\Maths\Latex-1\20410\PSET_6
 INPUT C:\Users\Dimitrios\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT C:\Users\Dimitrios\Documents\Maths\Latex-1\20410\PSET_6\PSet_6.tex
+INPUT PSet_6.tex
 OUTPUT PSet_6.log
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -42,6 +42,8 @@ INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex\latex\xstring\xstring
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex\latex\xstring\xstring.sty
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex\generic\xstring\xstring.tex
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex\generic\systeme\systeme.tex
+INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT .\PSet_6.aux
@@ -73,6 +75,12 @@ INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.f
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\ursfs.fd
+INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\ursfs.fd
+INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\ursfs.fd
+INPUT C:\Users\Dimitrios\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\Dimitrios\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\Dimitrios\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs5.tfm
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
@@ -83,9 +91,14 @@ INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\Dimitrios\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\Dimitrios\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs7.tfm
+INPUT C:\Users\Dimitrios\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs5.tfm
 OUTPUT PSet_6.pdf
 INPUT C:\Users\Dimitrios\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
+INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx7.tfm
+INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
 INPUT PSet_6.aux
 INPUT C:\Users\Dimitrios\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\Dimitrios\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
@@ -117,3 +130,5 @@ INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfon
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
+INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\rsfs\rsfs10.pfb
+INPUT C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\fonts\type1\public\rsfs\rsfs10.pfb

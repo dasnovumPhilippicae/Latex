@@ -1,9 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.3)  14 FEB 2025 17:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.3)  17 FEB 2025 16:54
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**C:/Users/Dimitrios/Documents/Maths/Latex-1/20410/PSET_6/PSet_6.tex
-(C:/Users/Dimitrios/Documents/Maths/Latex-1/20410/PSET_6/PSet_6.tex
+**./PSet_6.tex
+(PSet_6.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -169,6 +170,11 @@ ex
 )
 Package: systeme 2020/05/03 v0.34 Mise en forme de systemes d'equations (CT)
 )
+(C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\mathrsfs.s
+ty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+)
 (C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend
 -pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
@@ -177,20 +183,20 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 ) (PSet_6.aux)
 \openout1 = `PSet_6.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -226,19 +232,25 @@ LaTeX Font Info:    ... okay on input line 36.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
 
 (C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
 
 
 (C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-! Undefined control sequence.
-l.78 ... $g$ which is defined, by $g(y_0)\coloneqq
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 48
+.
+
+(C:\Users\Dimitrios\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+PSet_6.tex:79: Undefined control sequence.
+l.79 ... $g$ which is defined, by $g(y_0)\coloneqq
                                                    \text{ the correspoding v...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -250,23 +262,94 @@ and I'll forget about whatever was undefined.
 
 {C:/Users/Dimitrios/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 158--161
+PSet_6.tex:157: Missing $ inserted.
+<inserted text> 
+                $
+l.157 		
+        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+PSet_6.tex:157: Missing } inserted.
+<inserted text> 
+                }
+l.157 		
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+PSet_6.tex:157: Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.157 		
+        
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+PSet_6.tex:157: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.157 		
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+PSet_6.tex:158: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 	\]
+         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+PSet_6.tex:158: Missing $ inserted.
+<inserted text> 
+                $
+l.158 	\]
+         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+PSet_6.tex:158: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.158 	\]
+         
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--165
 
  []
 
 [3]
-! You can't use `macro parameter character #' in math mode.
+PSet_6.tex:193: You can't use `macro parameter character #' in math mode.
 <recently read> ##
                   
-l.189 ...an 0, so in particular it is not zero. $#
+l.193 ...an 0, so in particular it is not zero. $#
                                                   $ contradiction of the giv...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-! Undefined control sequence.
-l.197 		\masthscr
+PSet_6.tex:201: Undefined control sequence.
+l.201 		\masthscr
                  {U}(\mathscr{P}, f) - \mathscr{L}(\mathscr{P}, f) < \epsilo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -274,92 +357,48 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.197 		\masthscr{U}(\mathscr
-                             {P}, f) - \mathscr{L}(\mathscr{P}, f) < \epsilo...
+[4]
+PSet_6.tex:247: Undefined control sequence.
+l.247 ...)(y_{i}-x_{i})))' = \sum_{k=1}^{n} \nubla
+                                                   (D_{i}f(\gamma (t))(y_{i}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.197 		\masthscr{U}(\mathscr{P}, f) - \mathscr
-                                               {L}(\mathscr{P}, f) < \epsilo...
+PSet_6.tex:247: Undefined control sequence.
+l.247 ...mma (t))\times 0) = \sum_{k=1}^{n} \nubla
+                                                   D_{i}f(\gamma (t))(y_i -x...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.197 ...U}(\mathscr{P}, f) - \mathscr{L}(\mathscr
-                                                  {P}, f) < \epsilon \text{ ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.203 	\masthscr
-                {U} (\mathscr{P} , f) - \mathscr{L} (\mathscr{P} , f) = 1- 0...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Overfull \hbox (9.81636pt too wide) detected at line 260
+\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y\OT1/cmr
+/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 P[]\OT1/cmr/m/n/10 (\OML/cmm/m/
+it/10 y\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 j \OT1/cmr/m/n/10 = [] \OMS/cmsy/m/n/1
+0 ^^T [] [] []\OML/cmm/m/it/10 y \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 x\OMS/cm
+sy/m/n/10 j[]
+ []
 
-! Undefined control sequence.
-l.203 	\masthscr{U} (\mathscr
-                             {P} , f) - \mathscr{L} (\mathscr{P} , f) = 1- 0...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.203 	\masthscr{U} (\mathscr{P} , f) - \mathscr
-                                                {L} (\mathscr{P} , f) = 1- 0...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.203 ...(\mathscr{P} , f) - \mathscr{L} (\mathscr
-                                                  {P} , f) = 1- 0 = 1
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.221 		I_{c} \coloneqq
-                       	 \int_{0}^{c}f \leq \alpha c
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[4] [5] (PSet_6.aux)
+[5] [6] (PSet_6.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2923 strings out of 474485
- 44179 string characters out of 5741847
- 1935542 words of memory out of 5000000
- 25202 multiletter control sequences out of 15000+600000
- 565701 words of font info for 66 fonts, out of 8000000 for 9000
+ 2967 strings out of 474485
+ 45103 string characters out of 5741847
+ 1937542 words of memory out of 5000000
+ 25236 multiletter control sequences out of 15000+600000
+ 567309 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,7n,65p,631b,218s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,7n,65p,697b,239s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Dimitrios\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcrm1000.pk><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmbx10.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/font
@@ -377,10 +416,11 @@ ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Di
 mitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 <C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
 m/cmti10.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/symbols/msbm10.pfb>
-Output written on PSet_6.pdf (5 pages, 175152 bytes).
+ic/amsfonts/symbols/msbm10.pfb><C:/Users/Dimitrios/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on PSet_6.pdf (6 pages, 187647 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
+ 101 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
