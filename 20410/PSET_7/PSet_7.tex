@@ -1,0 +1,271 @@
+\documentclass{article}
+
+\usepackage{accents}
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{verbatim}
+\usepackage{systeme}  
+\newcommand{\R}{\mathbb{R}}  
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\Pm}{\mathbb{P}}
+\newcommand{\ma}[1]{\mathbf{#1}}
+\newcommand{\ent}{\vspace{0.5cm}}
+\newcommand{\A}{\mathbf{A}}
+\newcommand{\B}{\mathbf{B}}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\newenvironment{solution}{\begin{proof}[Solution]}{\end{proof}}
+\newenvironment{answer}{\begin{proof}[Solution]}{\end{proof}}
+
+\linespread{1.5} 
+\begin{document}
+\newcommand{\s}[0]{\sin(\theta)}
+\newcommand{\cs}[0]{\cos(\theta)}
+\newcommand{\spa}[0]{\hspace{1mm}}
+% ------------------------------------------ %
+%                 START HERE                 %
+% ------------------------------------------ %
+
+\title{MATH 20410 \ PSet 7} % Replace X with the appropriate number
+\author{Filippos Tsoukis} % Replace "Author's Name" with your name
+\date{\today}
+\maketitle
+
+% -----------------------------------------------------
+% The following two environments (theorem, proof) are
+% where you will enter the statement and proof of your
+% first problem for this assignment.
+%
+% In the theorem environment, you can replace the word
+% "theorem" in the \begin and \end commands with
+% "exercise", "problem", "lemma", etc., depending on
+% what you are submitting. Replace the "x.yz" with the
+% appropriate number for your problem.
+%
+% If your problem does not involve a formal proof, you
+% can change the word "proof" in the \begin and \end
+% commands with "solution".
+% -----------------------------------------------------
+\begin{problem}{6.8}
+\end{problem}
+
+\begin{solution}
+Notice that each interval $[n, n+1]$,is bounded above by $f(n)$, clear by the monotonically increasing part of the stem. Hence, it is clear, choosing the partition of $P = {1, 2, 3, 4, \cdots, k}$, that a valid Upper Sum for $\int_{1}^{k}f \textit{ dx }$  is $f(1)\times 1 +f(2)\times 1 + \dots +f(k)\times 1 = \sum_{n=1}^{k} f(n) $. Observe however, that, again, by the property of monotonically decreasing, the lower sum for that same partition of the integral is $\sum_{n=2}^{k+1}f(n)$. Now, each integral as we have thus defined it, i.e from 1 to a certain natural number k, is defined, by the stem. We need not prove that, having upper and lower bounded it, each is actually an integral. We have shown that the upper sum of the integral with upper bound n, is the same as the lower sum of the integral with upper bound $n+1$. Since the lower and upper bounds are a sum which converges, by cauchy, the difference between lower and upper sums goes to 0. So there. 
+
+To go the opposite direction: the integral can be seen as \[
+	\int_{1}^{\infty}f(x)dx = \sum_{n=1}^{\infty} \int_{n}^{n+1}f(x)dx  
+\]
+So, if this converges, then it means that \[
+	\sum_{n=1}^{\infty} \int_{n}^{n+1}f(x)dx 
+\]
+converges, since they are identical. But \[
+	\int_{n}^{n+1}f(x)dx \geq (n+1 - n) \inf_{[n,n+1]}f(x) =f(n+1), \textit{ by monotonically decreasing }   
+\]
+So, this means that \[
+	\int_{1}^{\infty}f(x)dx \geq \sum_{n=1}^{\infty} f(n+1) \geq 0
+\]
+So since it is between a convergent sum (remember, integral is like a convergent sum), and 0, and it is monontonically decreasing. Then it must also converge.
+\end{solution}
+
+\begin{problem}{6.18}
+\end{problem}
+
+\begin{solution}
+	The maximum range for a function of this form, with a coefficient of 1 before the $e$, is if the function $r(x)$, where $e^{r(x)}$, has range equivalent to $[0, 2\pi]$, where each point in this interval $p$ is equivalen to ${2\pi q + p: q \in \Z}$, and an interval is equivalent to that interval, if any point $p \in [0, 2\pi]$ has an equivalent point in the image of $r(x)$. Indeed, it is clear that $\gamma_{1}$ satisfies this, $\gamma_{2}$ also, just twice over. Now, for $\gamma_{3}$, it is clear that $t\sin(\frac{1}{t})$ has range, at least, $[0,1]$ over the domain, and that hence this gamma also has the range maximising domain of $r_{3}(x)$. 
+	\\
+	Now, to prove that the first are rectifiable, we show the magnitude of its derivatives are integrable (i,e finite integral). To show this:
+	\[
+		|\gamma_{1}'(t)| = \sqrt{\cos^{2}(t) + \sin^{2}(t)} = 1 \textit{ ;  } |\gamma_{2}'(t)| = \sqrt{4\cos^{2}(t)+4\sin^{2}(t)} = 2 
+	\]
+\end{solution}
+Obviously integrable. Now, to show that $\gamma_{3}$ is not rectifiable. It suffices to take a sequence of points such that they are bounded below by the harmonic series. Observe that, taking the path upto a small number, but greater than 0, we are allowed to use the derivative part. For instance, take $(x_n) s.t x_{n} = \frac{1}{n\pi +\frac{\pi}{2}}$. Clearly, $|\sin(\frac{1}{x_{n}}) - \sin(\frac{1}{x_{n+1}})$ is always 2. Hence, taking the partition defined by this $x_n$, we get $\Lambda (P , \gamma_{3}) = \sum_{n=1}^{\infty} \frac{1}{2n\pi +\frac{\pi}{2}}\times 2 $, which is unbounded (I have been loose with the infinity. In reality, all I'm saying is I can always refine the partition with more and more n, to get to a known (by the harmonic series) unbounded sum.)
+
+\begin{problem}{9.19}
+\end{problem}{9.19}
+
+\begin{solution}
+	We can create a symmetric expression, with $\gamma_{2}(x) = \gamma_{1}(\phi^{-1}(x))$. Now, composing bijections gives bijections, so the one or the other is a bijection, the other or the one is. One direction done. To clear the other direction, notice that since the range of $\phi(x)$ is the domain of the $\gamma$ functions, then bijection still applies. So, no trouble, other direction done.
+
+	$\phi(c) = a$, and it is implied that $\phi(d) = b$. To show the closed curve condition, if $\gamma(a)=\gamma(b)$, then definetely $\gamma(\phi(c))=\gamma(\phi(d))$ so done. The steps here are all reversible, so both directions are proven.
+
+	To show that the lengths are defined simulatneouisly, and are equal when defined, notice that since we are bijecting $[c,d]$ to $[a,b]$ (Prof Jackson said we can assume this, from Rudin's vague wording). Therefore,. a partition of P of $[a,b]$ which gives a certain length, is bijected to a partition of $[c,d]$, s.t $\phi(x_{i}^{[c,d]}) = x_{i}^{[a,b]}$, so then \[
+		\sum_{n = 1}^{k} |\gamma_1(x_{i-1}^{[a,b]})- \gamma_1(x_{i}^{[a,b]})| = \sum_{n=1}^{k} |\gamma_1(\phi(x_{i-1}^{[a,b]} - \gamma_{1}(\phi(x_{i}^{[a,b]})| = \sum_{n=1}^{k} |\gamma_{2}(x_{i-1}^{[c,d]}- \gamma_{2}(x_{i}^{[c,d]}|. 
+	\] So the lengths are 1-1 corresponded, so defined if one is, the same value shared.
+\end{solution}
+
+\begin{problem}{1}
+\end{problem}
+\begin{solution}
+	Picking an M as defined by the question, since the limit of $\frac{1}{n}$ is 0, there are only finitely many $\frac{1}{x}$ in $[M, 1]$. Say this number is $k$. Number each of them from 1 to k, with 1 being the smallest $\frac{1}{x}$. So, they are denoted $p_1$ to $p_k$. Construct the following partition of $[M,1]$: if the smallest $\frac{1}{x}$ is $\geq M+\frac{\epsilon}{4k}$, then let $x_0 = 0, \spa x_1 = M, \spa x_2 = p_1 - \frac{\epsilon}{4k}, \spa x_3 = p_1 + \frac{\epsilon}{4k}, \spa x_4 = p_2 - \frac{\epsilon}{4k}, \spa x_5 = p_2 +\frac{\epsilon}{4k}, \dots $ then, if the largest one is $\leq 1 -\frac{\epsilon}{4k}$, continue until $x_{2k} = p_k -\frac{\epsilon}{4k}, \spa x_{2k+1} = p_k, \spa x_{2k+2} = 1$. Now, let us explicitly find the upper and lower sums. Obviously, and even by the densioty of irrationals in R, the lower sum must b 0, as for any interval we have the minimum value of the function attained, i.e 0. The upper sum gets slightly dicier. The upper sum between 0 and M, is clearly $1\times M$. This is because of course the recpirocal of a natural number does exist in that interval, and $\Delta_{x_{1}} = M$. After that however, by the construction of the partition, every reciprocal of a natural number in $[M,1]$ has $\frac{\epsilon}{2k}$ around it in that partition, and other intervals $i$ have no such values. So, the contribution comes out to be $k\times 1\times \frac{\epsilon}{2k}$ for the $[x_{i-1}, x_{i}]$ which have a $p$ inside of them, and 0 for the ones that don't. There are k such ones though, so the upper sum is $\frac{\epsilon}{2}$. So in sum, the upper sum is $\frac{\epsilon}{2} +M$.Since, lower sum is 0, $U - L < \frac{\epsilon}{2}+M$, so pick M less than $\frac{\epsilon}{2}$ and we are done.
+
+To ensure proper rigorousness, we say that, going left to right, if the ith +1 reciprocal of a natural number is already within the intervals we constructed for the ith one, we ignore it, and move to the next. Furthermore, we say that if the conditions $p_1$ being further to the3 right of M than that constant are failed, the computationwe have done is even more of an upper bound. So both of these remarks lead the upper sums to be different factors of $\epsilon$, which was arbitrary.
+ 
+
+\end{solution}
+
+\begin{problem}{2}
+\end{problem}
+
+\begin{solution}
+(a)
+	Algebraic manipulations of the expression, using that $abpq>0$, by their construction
+	\[
+	\frac{1}{p}+\frac{1}{q} = 1 \Rightarrow \frac{1}{q} = 1 - \frac{1}{p} \Rightarrow q = \frac{1}{1-\frac{1}{p}} = \frac{1}{\frac{p-1}{p}} = \frac{p}{p-1}
+\]
+\[
+	ab \leq \frac{a^{p}}{p}+\frac{b^{q}}{q} \iff A = ab - \frac{a^{p}}{p}-\frac{b^{q}}{q}  \leq 0 
+\]
+Now, fix b and maximize $A$ for $a$. So, \[
+	A' = b - \frac{p}{p}a^{p-1}
+\]
+Fixing the derivative to be 0: 
+\[
+	b = a^{p-1} \Rightarrow a = b^{\frac{1}{p-1}}
+\]
+Evaluating 2nd derivative:
+\[
+	A'' = -\frac{1}{p-1}a^{p-2}
+\]
+Certainly this is negative about our solution, hence this must be a maximum point. So, A is maximized for this a: if, then, it satisfies the inequality for this a, it does so for all a.
+
+\[
+	A = b^{1+\frac{1}{p-1}} - \frac{b^{\frac{p}{p-1}}}{p} - \frac{b^q}{q} 
+\]
+But, from before, $\frac{p}{p-1}$ is none other than $q$. So
+\[
+	A = b^q - b^{q}(\frac{1}{q}+\frac{1}{p}) = 0
+\]
+Thus satisfying the requirement, even in the `worst' case.
+
+(b)
+By the inequality proven in part (a) being true for any point, it must be true for a function in general, that is, \[
+	|f(x)||g(x)| \leq \frac{f(x)^{p}}{p} + \frac{g(x)^{q}}{q}
+\]
+Now, since $\phi (x) := \frac{1}{p}x^{p}$ cts and hence riemann integrable, and we are given f is riemann integrable,. $\phi \circ f(x)$ is also. The same applies for g, except using $q$. Since they are all riemann integrable, properties of integrals translate the inequality to \[
+	\int_{a}^{b}|f(x)||g(x)| \leq \int_{a}^{b} \frac{f(x)^{p}}{p} + \int_{a}^{b} \frac{g(x)^{q}}{q} 
+\]
+But, since \[
+	(\int_{a}^{b}f(x)^{p})^{\frac{1}{p}}) = 1 \textit{ we know } \frac{\int_{a}^{b}f(x)^{p}}{p} = \frac{1}{p}. 
+\]
+Same true for $g$ and $p$.
+So 
+\[
+		|f(x)||g(x)| \leq \frac{f(x)^{p}}{p} + \frac{g(x)^{q}}{q} = 1
+\]
+By initial condition on $p, q $ so done.
+
+(c)
+First the machinery:
+\[
+	(\int_{a}^{b}\frac{f(x)}{c}^{p})^{\frac{1}{p}} =\frac{1}{c^p}^{\frac{1}{p}}\int_{a}^{b}f(x)^{p})^{\frac{1}{p}} = |c|\times ||f||_{p}    
+\]
+Define 
+\[
+	h(x) = \frac{|f(x)|}{||f||_{p}}, \spa j(x) = \frac{|g(x)|}{||g||_{q}}
+\]
+
+Hence, we have j and k which satisfy the condition of part b, so write down the resultant expression:
+\[
+	1 \geq \int_{a}^{b}h(x)j(x) = \int_{a}^{b}\frac{|f(x)||g(x)|}{||f||_{p}||g||_{q}} \iff  |\int_{a}^{b}f(x)g(x)|\leq \int_{a}^{b}|f(x)||g(x)| \leq ||f||_{p}||g||_{q} 
+\]
+
+In this, we assumed that the norms of the functions are non-zero, since we divided by them. Assume $||g||_{q} = 0$. Then \[
+	I = \int_{a}^{b}|g|^{q}dx \geq (b-a)\inf_{[a,b]}|g(x)|
+\]
+If $I^{\frac{1}{q}} = 0$, then $I = 0$. In that case however, since $|g(x)| \geq 0$, $I\geq 0$. Equality is only if $g(x) = 0$ exactly. So, substituting into the equality.
+\[
+	|\int_{a}^{b} 0\times f(x)| = 0
+\]
+So proven. The identical proof holds for $f$ ,swapping q for p, and nowhere in the proof is a condition upon f placed, hence both can be zero.
+\end{solution}
+\newpage
+\begin{problem}{3}
+\end{problem}
+
+\begin{solution}
+	Let \[
+		I = \int_{a}^{b}|f-g|dx
+	\]
+Now, since we are adding $-g$ to $f$, an integrable fucntion, $f-g$ is integrable. The absolute value function is cts, so $|f-g|$ is integrable. Now, by rules of integration, \[
+	I \leq (b-a)\sup_{[a,b]}(|f(x)-g(x)|)
+\]
+So, take $\alpha = sup_{[a,b]}(f(x))$. Now, either the function f has finitely many discontinuities. If it has finitely many discontinuties, number them k for left to right. $d_{1}$ to $d_{k}$. Now define the difference $D_n$ as follows:
+\[
+	D_n = \lim_{t+ \to d_1}f(x)-\lim_{t- \to d_1}f(x)
+\]
+Define the function g to be
+\[ g(x) = 
+   \begin{cases} 
+	f(x) & a \leq x \leq d_1 -\frac{\epsilon}{2kD_1} \\
+	\lim_{t- \to d_1}f(t) +xD_1 & d_1 - \frac{\epsilon}{2kD_1} \leq x \leq d_1 + \frac{\epsilon}{2kD_1}
+	\cdots
+	f(x) & d_k + \frac{\epsilon}{2kD_{k}} \leq x \leq b 
+   \end{cases}
+\]
+
+In the way that this has been made, the area difference at each of the points of discontinuity is $\frac{\epsilon}{2k}$, so in this way $\int_{a}^{b}|f-g| = \frac{\epsilon}{2}$. This is because of the area of a triangle with base $\frac{\epsilon}{kD_{i}}$ and height $D_{i}$ is $\frac{\epsilon}{2k}$.  Of course, if the discontinuities `overlap' when looked at this way, ignore all but the 1st one from left to right in the overlap, and then the difference is even less than what is expressed, so the previous is an upper bound. So if this upper bound value is less than epsilon, definitely the real one is also. 
+
+But, in the case of infinite discontinuities, this does not work. Take instead the set of points $l_{i}$ for which, $\forall \delta > 0$, $B_{\delta}(l_{i})$ has infinite points of distcontinuity. Since it is monotonic (otherwise it would not be riemann integrable), the area of this region denoted by this ball is upper bounded by $(f(l_{i}+\delta) - f(l_{i}- \delta))(2\delta)$. Now, there must be finitely many such $l_{i}$, or we have an everywhere distinuous function, which is not Riemann Integrable. Call their number $j$. This leaves $j$ such areas to be dealt with, and between $j+1$ and $j-1$ intervals where the previous method can hold. So, for each of these $l_{i}$, pick $\delta_{i}$ such that $(f(l_{i}+\delta_{i}) - f(l_{i}- \delta_{i}))(2\delta_{i})<\frac{\epsilon}{4j}$. And for each of the intervals which has finitely many discontinuities, follow the previous method but with $\epsilon$ being $\frac{\epsilon}{4(j+1)}$ (j+1 picked for good measure). Now the result is that by defining g as shown before, but now adding that we call it the straight line function between each $l_{i}- \delta_{i}$ and $l_{i}+\delta_{i}$, we get that the $\int_{a}^{b}|f-g| \leq \frac{\epsilon}{4} +\frac{\epsilon}{4} = \frac{\epsilon}{2}<\epsilon$ and that this is a generous upper bound.
+
+
+\end{solution}
+\newpage
+\begin{problem}{4}
+\end{problem}
+
+\begin{solution}
+(a)
+This is true by the triangular inequality: suppose there was another path which was shorter. Aside from the boundaries of this hypothetical path $\gamma_{1}$, there must be another point of it which is, for that $t$ distinct to $\gamma(t)$ (otherwise, they are by definition the same path). let this point be $c$ The length of the hypoethical path can be underestimated by \[
+	|x-c| + |c-y|
+\]
+That this is shorter than $|x-y|$ is precluded by the triangular inequality, so contradiction, so it is indeed the shortest path.
+
+(b) Yes, it is the only one, as the inequality is strict. Hence, if they are not the same path, there is a slight discrepancy.
+
+(c) 
+\[
+	\sqrt{E(\gamma)} = (\int_{a}^{b}|\gamma'(t)|^{2}dt)^{\frac{1}{2}}  
+\]
+This is just the construction of 
+
+Let $\phi(x) = x^{2}$. It is known that since $\gamma'$ is cts (by C1 condition on $\gamma$), $\Lambda (\gamma)) = \int_{a}^{b}|\gamma'(t)|dt$. So, by Jensen's inequality, \[
+	(\Lambda(\gamma))^{2} = (\int_{a}^{b}|\gamma'(t)|dt)^{2} \leq \int_{a}^{b}|\gamma'(t)|^{2}dt = E(\gamma) \iff \Lambda(\gamma) \leq \sqrt{E(\gamma)} 
+\] 
+Since the square root function is one to one and increasing, hence it respects inequalities. Furthermore, both sides are positive in the inequality. So done.
+
+Now, since what we proved in part a) was really saying that $\inf_{\gamma} \Lambda(\gamma) = \Lambda(\gamma_{x\rightarrow y})$, and since lub and glb respect inequalities: \begin{equation}
+	\Lambda(\gamma_{x\rightarrow y}) \leq \inf \sqrt{E(\gamma)} 
+\end{equation}
+Suffices, then, to show that this value is indeed attained by $\sqrt{E(\gamma)}$ for some $\gamma$. Try the straight line path. In that case \[
+	|\gamma'(t)| = |x-y|.
+\]
+So, the integral \[
+	E(\gamma_{x \rightarrow y}\int_{0}^{1}|\gamma'(t)|^{2} = |x-y|^{2} - 0 
+\]
+Clearly, \[
+	\sqrt{E(\gamma_{x \rightarrow y})} = |x-y| = \inf \inf(\sqrt{E(\gamma)}  
+\]
+The 2nd equal sign is gotten by equation 1. the So $|x-y|$ is in fact the infimum of $\sqrt{E(\gamma)}$. Since both quantities are positive, it is correct to say that \[
+	\inf E(\gamma) = |x-y|^{2}
+\]
+
+\end{solution}
+\end{document}
+
